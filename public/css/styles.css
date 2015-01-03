@@ -1,0 +1,41 @@
+.tweet {
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 15px;
+    color: #EEE;
+}
+
+.tweet a {
+    color: #6AC;
+}
+
+.tweet .logo {
+    height: 0px;
+}
+
+.tweet .logo img {
+    height: 4em;
+    float: left;
+    position: relative;
+    left:-35px;
+    top: -40px;
+    z-index: 10;
+}
+
+.tweet .name {
+    font-weight: 400;
+}
+
+.twitter .tweet .screen_name_date {
+    font-size: 0.6em;
+    color: #CCC;
+}
+
+.twitter .tweet .screen_name, .twitter .tweet .date {
+    font-size: 1.4em;
+}
+
+.twitter .tweet .user_mentions, .twitter .tweet .hashtag{
+    text-decoration: none;
+}
